@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family:"Merriweather", serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* banner style part start here */
+.banner-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  background-image: url(../images/Banner\ Image.png);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgba(0,0,0,0.5);
+  background-blend-mode: overlay;
+}
+.banner-detals{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.banner-container h4{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-container h1{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+/* banner style ends here */
+
+/* all catagori style start here */
+.ALL_CATEGORIES{
+    width: 803px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.ALL_CATEGORIES img{
+    width: 100%;
+    height: 500px;
+}
+.all-catgories-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all-catgories-info h2{
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    line-height: 107px;
+    font-family: Inter;
+    margin-bottom: 48px;
+    margin-top: 0px;
+}
+.all-catgories-info p{|
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    line-height: 29px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 16px;
+}
+.all-catgories-info h1{
+    font-family: Inter;
+    font-size:48px ;
+    font-weight: 700;
+    color:rgb(7, 2, 17) ;
+    line-height:58px;
+    margin-bottom: 48px;
+}
+/* all catagori style end here */
+
+/* <!-- midnight party sec style start here --> */
+.midnight-party{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+.left-side{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.left-side h2{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    color: rgb(255, 255, 255);
+    /* margin: 126px 0 24px 100px;
+    margin-left: 60px; */
+}
+.left-side p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 0 28px 126px;
+    margin-right: 30px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.right-side{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-side img{
+    margin: 62px 104px 63px 0px;
+}
+/* <!-- midnight party sec style end here --> */
+
+/* page information sec style start here */
+.page-information{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.page-information-del{
+    width: 555px;
+    height: 280px;
+}
+.page-information h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.page-information h4 span{
+    color: red;
+}
+.jonin-now{width: 167px;
+    height: 56px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    margin-top: 48px;
+}
+/* page information sec style end here */
+
+/* new best offer section style start here */
+.new-best-offer{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.left-content{
+    width:33%;
+    height: 100%;
+}
+.left-content h5{
+    margin-top: 104px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.left-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.left-content p{
+    margin-bottom: 104px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.middel-content{
+    width: 34%;
+    height: 100%;
+}
+.middel-content img{
+    border: 15px solid red;
+    padding:35.8px 18.8px 29.8px 35.2px;
+    border-radius: 50%;
+}
+.right-content{
+    width: 33%;
+    height: 100%;
+}
+.right-content h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 90px 139.67px 16px 108.33px;
+}
+.right-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px 40px 15px 110px;
+    margin-top: 43px;
+}
+.right-content img{
+    margin:0px 120px 1.6px 111px;
+}
+/* new best offer section style ends here */
+
+/* functional disciount section style start here */
+.functional-discount{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+}
+.functional-discount-informaition{
+
+}
+.functional-discount-informaition h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align:center;
+    margin-bottom: 16px;
+}
+.functional-discount-informaition h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.functional-discount-informaition h1 span{
+    color: red;
+}
+.functional-discount-informaition p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-bottom: 146px;
+}
+.rectangle-color{
+    background-color: red;
+    width: 1318px;
+    height: 229px;
+    position: absolute;
+    top: 76.8%;
+    border-radius: 16px 0px 16px 16px;
+    /* margin-bottom: 120px; */
+}
+.gift-container{
+    width:674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.gril-container img{
+    width: 306px;
+    height: 306px;
+    margin: 77px 30.33px 50.3px 177.54px;
+}
+.fu-discount{
+    position: absolute;
+    bottom: 28%;
+    left: 53%;
+    z-index: 1;
+}
+/* functional disciount section style ends here */
+
+/* Our Awesome Portfolio section style start here */
+.awesome-protfolio{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120.7px;
+}
+ .awesome-protfolio-detials{
+
+    }
+.awesome-protfolio-detials h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.awesome-protfolio-detials h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    }
+    .awesome-protfolio-detials p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 424px;
+    margin-bottom: 48px;
+    }
+    .card-container{
+        width: 1318px;
+        height: 921px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 18px;
+    }
+    .card{
+        width: 423.33px;
+        height:448.5px;
+        margin-left: 0px;
+        border-radius: 16px;
+        background: url(1);
+       background-size:cover;
+    }
+/* Our Awesome Portfolio section style ends here */
+
+/* Subscribe Newsletter section style start here */
+    .Subscribe-newsletter{
+        width: 1320px;
+        height: 616px;
+        border-radius: 16px;
+        background: rgba(255, 0, 0, 0.05);
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .subcribe-newsletter-del{
+        width:896px;
+        height:333px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 48px;
+        
+    }
+    .subcribe-newsletter-del img{
+        height: 150px;
+        width: 150px;
+        margin-bottom: 37px;
+      
+    }
+    .subcribe-newsletter-del h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    }
+    .subcribe-newsletter-del p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .subc-btn{
+        /* position: relative; */
+        /* width: 648px;
+        height: 72px; */
+        display: flex;
+        justify-content: center;
+        margin-left: 336px;
+        margin-right: -140px;
+        flex-direction: row;
+    }
+    .subc-btn input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    position: absolute;
+    margin-right: 477px;
+    border: none;
+    text-align:left;
+    padding-left: 30px;
+    
+    
+    }
+    .subc-btn button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    position:relative;
+    z-index: 1;
+    border: none;
+    margin-right: 40px;
+    }
+   
+/* Subscribe Newsletter section style  ends here */
+/* footer part style start here */
+.footer{
+    width: 1600px;
+    height: 609px;
+    border: 2px solid rebeccapurple;
+    margin: 0 auto;
+    background: rgb(7, 2, 17);
+}
+.footer-frist-sec{
+    display: flex;
+    color: rgb(255, 255, 255);
+    /* border: 2px solid orange; */
+    width: 90%;
+    margin: 0 auto;
+    justify-content:space-around;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    
+}
+.contact{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.p{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+  
+
+}
+.social-icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+}
+.footer-end-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 45.5px;
+}
+.hr{
+    /* margin-bottom: 48px; */
+}
